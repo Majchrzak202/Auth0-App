@@ -1,12 +1,17 @@
-import './App.css';
-import LoginButton from './LoginButton';
+import React from "react";
+import "./App.css";
+import LoginButton from "./LoginButton";
+import LogoutButton from "./LogoutButton";
+import Profile from "./Profile";
 
-const App = () =>  {
+const App = () => {
   return (
-    <div >
-<LoginButton/>
-    </div>
+    <>
+      <LoginButton />
+      <LogoutButton />
+      <Profile/>
+    </>
   );
-}
+};
 
 export default App;
